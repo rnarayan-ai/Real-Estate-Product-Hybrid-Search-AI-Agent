@@ -13,32 +13,6 @@ A production-ready hybrid real-estate product search agent that: Automatically d
 > A production-ready AI Agent for real estate product search — combining structured data search and semantic vector search, built with FastAPI, Redis, and an LLM-driven decision engine.
 
 ---
-
-## 📋 Table of Contents
-
-1. [Overview](#overview)  
-2. [Features](#features)  
-3. [Architecture](#architecture)  
-4. [Tech Stack](#tech-stack)  
-5. [Getting Started](#getting-started)  
-   - [Prerequisites](#prerequisites)  
-   - [Setup & Installation](#setup--installation)  
-   - [Running Locally](#running-locally)  
-   - [Using Docker](#using-docker)  
-   - [Production Deployment](#production-deployment)  
-6. [API Reference](#api-reference)  
-   - [Health Check](#health-check)  
-   - [Ingest Endpoint](#ingest-endpoint)  
-   - [Search Endpoint](#search-endpoint)  
-7. [Decision Logic](#decision-logic)  
-8. [Project Structure](#project-structure)  
-9. [Testing](#testing)  
-10. [Contributing](#contributing)  
-11. [License](#license)  
-12. [Acknowledgements](#acknowledgements)
-
----
-
 ## 🧐 Overview
 
 The Real Estate Hybrid Search Agent intelligently routes user queries to the most appropriate search mode:
